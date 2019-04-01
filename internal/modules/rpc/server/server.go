@@ -3,9 +3,9 @@ package server
 import (
 	"net"
 
-	"github.com/ouqiang/gocron/internal/modules/rpc/auth"
-	pb "github.com/ouqiang/gocron/internal/modules/rpc/proto"
-	"github.com/ouqiang/gocron/internal/modules/utils"
+	"gocron/internal/modules/rpc/auth"
+	pb "gocron/internal/modules/rpc/proto"
+	"gocron/internal/modules/utils"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

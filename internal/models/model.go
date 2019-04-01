@@ -6,12 +6,12 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
-	_ "github.com/lib/pq"
 	"github.com/go-xorm/core"
 	"github.com/go-xorm/xorm"
-	"github.com/ouqiang/gocron/internal/modules/app"
-	"github.com/ouqiang/gocron/internal/modules/logger"
-	"github.com/ouqiang/gocron/internal/modules/setting"
+	_ "github.com/lib/pq"
+	"gocron/internal/modules/app"
+	"gocron/internal/modules/logger"
+	"gocron/internal/modules/setting"
 	"gopkg.in/macaron.v1"
 )
 
